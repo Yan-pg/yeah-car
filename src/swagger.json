@@ -17,7 +17,7 @@
                 "requestBody": {
                     "content": {
                         "application/json": {
-                            "schama": {
+                            "schema": {
                                 "type": "object",
                                 "properties": {
                                     "name": {
@@ -53,7 +53,7 @@
                         "description": "Success",
                         "content": {
                             "application/json": {
-                                "schama": {
+                                "schema": {
                                     "type": "array",
                                     "items": {
                                         "type": "object",
