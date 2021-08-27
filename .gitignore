@@ -6,6 +6,3 @@ node_modules/
 .env
 coverage
 ormconfig.json
-
-# tmp/avatar/*
-# !tmp/avatar/.gitkeep
