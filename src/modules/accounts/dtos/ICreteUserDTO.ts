@@ -6,6 +6,7 @@ interface ICreateUserDTO {
   driver_license: string;
   isAdmin?: boolean;
   created_at?: Date;
+  avatar?: string;
 }
 
 export { ICreateUserDTO };
