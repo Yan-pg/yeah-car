@@ -7,5 +7,5 @@ node_modules/
 coverage
 ormconfig.json
 
-tmp/avatar/*
-!tmp/avatar/.gitkeep
+# tmp/avatar/*
+# !tmp/avatar/.gitkeep
