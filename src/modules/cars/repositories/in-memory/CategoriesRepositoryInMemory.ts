@@ -9,7 +9,6 @@ class CategoriesRepositoryInMemory implements ICategoriesReposity {
 
   async findByName(name: string): Promise<Category> {
     const category = this.categories.find(category => category.name === name);
-    console.log(category);
     return category;
   }
   async list(): Promise<Category[]> {
@@ -24,7 +23,7 @@ class CategoriesRepositoryInMemory implements ICategoriesReposity {
       description,
     });
 
-    console.log(category);
+    this.categories.push(category);
   }
 }
 
