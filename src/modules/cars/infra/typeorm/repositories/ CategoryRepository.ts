@@ -1,10 +1,10 @@
 import { getRepository, Repository } from 'typeorm';
 
-import { Category } from '../../entities/Category';
 import {
   ICategoriesReposity,
   ICreateCategoryDTO,
-} from '../ICategoriesReposity';
+} from '../../../repositories/ICategoriesReposity';
+import { Category } from '../entities/Category';
 
 // singleton
 
